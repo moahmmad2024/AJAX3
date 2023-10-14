@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer App</title>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="timer">
+            <span class="minutes">25</span>:<span class="seconds">00</span>
+        </div>
+        
+        <button class="reset-button">Reset</button>
+        <button class="start-button">Start</button>
+       
+    </div>
+    <div >
+        <button class="set-time">Set Time</button>
+        <input type="number" id="custom-time" placeholder="Enter custom time in minutes">
+    </div>
+    <asudio id="notification">
+        <source src="notification.mp3" type="audio/mpeg">
+    </audio>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
